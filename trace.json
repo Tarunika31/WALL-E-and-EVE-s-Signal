@@ -1,0 +1,1161 @@
+[
+  {
+    "step": 1,
+    "action": {
+      "type": "scan",
+      "reason": "Sample signal and nearby clue bearings; update belief."
+    },
+    "position": [
+      0,
+      0
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        0,
+        0
+      ],
+      "signal_strength": 0.048,
+      "clues": []
+    },
+    "decision": "Sample signal and nearby clue bearings; update belief.",
+    "battery": 40,
+    "elapsed": 1
+  },
+  {
+    "step": 2,
+    "action": {
+      "type": "move",
+      "delta": [
+        1,
+        0
+      ],
+      "reason": "Explore promising unvisited cell (2, 1)."
+    },
+    "position": [
+      1,
+      0
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        1,
+        0
+      ],
+      "signal_strength": 0.042,
+      "clues": []
+    },
+    "decision": "Explore promising unvisited cell (2, 1).",
+    "battery": 39,
+    "elapsed": 2
+  },
+  {
+    "step": 3,
+    "action": {
+      "type": "move",
+      "delta": [
+        1,
+        0
+      ],
+      "reason": "Explore promising unvisited cell (5, 0)."
+    },
+    "position": [
+      2,
+      0
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        2,
+        0
+      ],
+      "signal_strength": 0.076,
+      "clues": []
+    },
+    "decision": "Explore promising unvisited cell (5, 0).",
+    "battery": 38,
+    "elapsed": 3
+  },
+  {
+    "step": 4,
+    "action": {
+      "type": "scan",
+      "reason": "Sample signal and nearby clue bearings; update belief."
+    },
+    "position": [
+      2,
+      0
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        2,
+        0
+      ],
+      "signal_strength": 0.041,
+      "clues": []
+    },
+    "decision": "Sample signal and nearby clue bearings; update belief.",
+    "battery": 36,
+    "elapsed": 4
+  },
+  {
+    "step": 5,
+    "action": {
+      "type": "move",
+      "delta": [
+        0,
+        1
+      ],
+      "reason": "Explore promising unvisited cell (8, 0)."
+    },
+    "position": [
+      2,
+      1
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        2,
+        1
+      ],
+      "signal_strength": 0.074,
+      "clues": []
+    },
+    "decision": "Explore promising unvisited cell (8, 0).",
+    "battery": 35,
+    "elapsed": 5
+  },
+  {
+    "step": 6,
+    "action": {
+      "type": "move",
+      "delta": [
+        0,
+        1
+      ],
+      "reason": "Explore promising unvisited cell (8, 1)."
+    },
+    "position": [
+      2,
+      2
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        2,
+        2
+      ],
+      "signal_strength": 0.069,
+      "clues": []
+    },
+    "decision": "Explore promising unvisited cell (8, 1).",
+    "battery": 34,
+    "elapsed": 6
+  },
+  {
+    "step": 7,
+    "action": {
+      "type": "scan",
+      "reason": "Sample signal and nearby clue bearings; update belief."
+    },
+    "position": [
+      2,
+      2
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        2,
+        2
+      ],
+      "signal_strength": 0.05,
+      "clues": []
+    },
+    "decision": "Sample signal and nearby clue bearings; update belief.",
+    "battery": 32,
+    "elapsed": 7
+  },
+  {
+    "step": 8,
+    "action": {
+      "type": "move",
+      "delta": [
+        0,
+        1
+      ],
+      "reason": "Explore promising unvisited cell (8, 2)."
+    },
+    "position": [
+      2,
+      3
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        2,
+        3
+      ],
+      "signal_strength": 0.056,
+      "clues": [
+        {
+          "kind": "clue",
+          "id": "C-ALPHA",
+          "bearing": "S",
+          "strength": 0.5
+        }
+      ]
+    },
+    "decision": "Explore promising unvisited cell (8, 2).",
+    "battery": 31,
+    "elapsed": 8
+  },
+  {
+    "step": 9,
+    "action": {
+      "type": "move",
+      "delta": [
+        0,
+        1
+      ],
+      "reason": "Explore promising unvisited cell (4, 7)."
+    },
+    "position": [
+      2,
+      4
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        2,
+        4
+      ],
+      "signal_strength": 0.065,
+      "clues": [
+        {
+          "kind": "clue",
+          "id": "C-ALPHA",
+          "bearing": "HERE",
+          "strength": 0.996
+        }
+      ]
+    },
+    "decision": "Explore promising unvisited cell (4, 7).",
+    "battery": 30,
+    "elapsed": 9
+  },
+  {
+    "step": 10,
+    "action": {
+      "type": "scan",
+      "reason": "Sample signal and nearby clue bearings; update belief."
+    },
+    "position": [
+      2,
+      4
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        2,
+        4
+      ],
+      "signal_strength": 0.086,
+      "clues": [
+        {
+          "kind": "clue",
+          "id": "C-ALPHA",
+          "bearing": "HERE",
+          "strength": 0.975
+        }
+      ]
+    },
+    "decision": "Sample signal and nearby clue bearings; update belief.",
+    "battery": 28,
+    "elapsed": 10
+  },
+  {
+    "step": 11,
+    "action": {
+      "type": "move",
+      "delta": [
+        1,
+        0
+      ],
+      "reason": "Explore promising unvisited cell (5, 7)."
+    },
+    "position": [
+      3,
+      4
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        3,
+        4
+      ],
+      "signal_strength": 0.12,
+      "clues": []
+    },
+    "decision": "Explore promising unvisited cell (5, 7).",
+    "battery": 27,
+    "elapsed": 11
+  },
+  {
+    "step": 12,
+    "action": {
+      "type": "move",
+      "delta": [
+        1,
+        0
+      ],
+      "reason": "Explore promising unvisited cell (5, 7)."
+    },
+    "position": [
+      4,
+      4
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        4,
+        4
+      ],
+      "signal_strength": 0.089,
+      "clues": []
+    },
+    "decision": "Explore promising unvisited cell (5, 7).",
+    "battery": 26,
+    "elapsed": 12
+  },
+  {
+    "step": 13,
+    "action": {
+      "type": "scan",
+      "reason": "Sample signal and nearby clue bearings; update belief."
+    },
+    "position": [
+      4,
+      4
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        4,
+        4
+      ],
+      "signal_strength": 0.095,
+      "clues": []
+    },
+    "decision": "Sample signal and nearby clue bearings; update belief.",
+    "battery": 24,
+    "elapsed": 13
+  },
+  {
+    "step": 14,
+    "action": {
+      "type": "move",
+      "delta": [
+        1,
+        0
+      ],
+      "reason": "Explore promising unvisited cell (5, 7)."
+    },
+    "position": [
+      5,
+      4
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        5,
+        4
+      ],
+      "signal_strength": 0.133,
+      "clues": []
+    },
+    "decision": "Explore promising unvisited cell (5, 7).",
+    "battery": 23,
+    "elapsed": 14
+  },
+  {
+    "step": 15,
+    "action": {
+      "type": "move",
+      "delta": [
+        0,
+        1
+      ],
+      "reason": "Explore promising unvisited cell (5, 7)."
+    },
+    "position": [
+      5,
+      5
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        5,
+        5
+      ],
+      "signal_strength": 0.17,
+      "clues": []
+    },
+    "decision": "Explore promising unvisited cell (5, 7).",
+    "battery": 22,
+    "elapsed": 15
+  },
+  {
+    "step": 16,
+    "action": {
+      "type": "scan",
+      "reason": "Sample signal and nearby clue bearings; update belief."
+    },
+    "position": [
+      5,
+      5
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        5,
+        5
+      ],
+      "signal_strength": 0.147,
+      "clues": []
+    },
+    "decision": "Sample signal and nearby clue bearings; update belief.",
+    "battery": 20,
+    "elapsed": 16
+  },
+  {
+    "step": 17,
+    "action": {
+      "type": "move",
+      "delta": [
+        0,
+        1
+      ],
+      "reason": "Explore promising unvisited cell (5, 7)."
+    },
+    "position": [
+      5,
+      6
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        5,
+        6
+      ],
+      "signal_strength": 0.16,
+      "clues": []
+    },
+    "decision": "Explore promising unvisited cell (5, 7).",
+    "battery": 19,
+    "elapsed": 17
+  },
+  {
+    "step": 18,
+    "action": {
+      "type": "move",
+      "delta": [
+        1,
+        0
+      ],
+      "reason": "Explore promising unvisited cell (7, 7)."
+    },
+    "position": [
+      6,
+      6
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        6,
+        6
+      ],
+      "signal_strength": 0.229,
+      "clues": []
+    },
+    "decision": "Explore promising unvisited cell (7, 7).",
+    "battery": 18,
+    "elapsed": 18
+  },
+  {
+    "step": 19,
+    "action": {
+      "type": "scan",
+      "reason": "Sample signal and nearby clue bearings; update belief."
+    },
+    "position": [
+      6,
+      6
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        6,
+        6
+      ],
+      "signal_strength": 0.173,
+      "clues": []
+    },
+    "decision": "Sample signal and nearby clue bearings; update belief.",
+    "battery": 16,
+    "elapsed": 19
+  },
+  {
+    "step": 20,
+    "action": {
+      "type": "move",
+      "delta": [
+        1,
+        0
+      ],
+      "reason": "Explore promising unvisited cell (9, 6)."
+    },
+    "position": [
+      7,
+      6
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        7,
+        6
+      ],
+      "signal_strength": 0.272,
+      "clues": []
+    },
+    "decision": "Explore promising unvisited cell (9, 6).",
+    "battery": 15,
+    "elapsed": 20
+  },
+  {
+    "step": 21,
+    "action": {
+      "type": "move",
+      "delta": [
+        0,
+        1
+      ],
+      "reason": "Explore promising unvisited cell (9, 6)."
+    },
+    "position": [
+      7,
+      7
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        7,
+        7
+      ],
+      "signal_strength": 0.187,
+      "clues": []
+    },
+    "decision": "Explore promising unvisited cell (9, 6).",
+    "battery": 14,
+    "elapsed": 21
+  },
+  {
+    "step": 22,
+    "action": {
+      "type": "scan",
+      "reason": "Sample signal and nearby clue bearings; update belief."
+    },
+    "position": [
+      7,
+      7
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        7,
+        7
+      ],
+      "signal_strength": 0.179,
+      "clues": []
+    },
+    "decision": "Sample signal and nearby clue bearings; update belief.",
+    "battery": 12,
+    "elapsed": 22
+  },
+  {
+    "step": 23,
+    "action": {
+      "type": "move",
+      "delta": [
+        1,
+        0
+      ],
+      "reason": "Explore promising unvisited cell (10, 7)."
+    },
+    "position": [
+      8,
+      7
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        8,
+        7
+      ],
+      "signal_strength": 0.227,
+      "clues": []
+    },
+    "decision": "Explore promising unvisited cell (10, 7).",
+    "battery": 11,
+    "elapsed": 23
+  },
+  {
+    "step": 24,
+    "action": {
+      "type": "move",
+      "delta": [
+        1,
+        0
+      ],
+      "reason": "Explore promising unvisited cell (10, 6)."
+    },
+    "position": [
+      9,
+      7
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        9,
+        7
+      ],
+      "signal_strength": 0.352,
+      "clues": [
+        {
+          "kind": "clue",
+          "id": "C-CHARLIE",
+          "bearing": "N",
+          "strength": 0.489
+        }
+      ]
+    },
+    "decision": "Explore promising unvisited cell (10, 6).",
+    "battery": 10,
+    "elapsed": 24
+  },
+  {
+    "step": 25,
+    "action": {
+      "type": "scan",
+      "reason": "Sample signal and nearby clue bearings; update belief."
+    },
+    "position": [
+      9,
+      7
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        9,
+        7
+      ],
+      "signal_strength": 0.338,
+      "clues": [
+        {
+          "kind": "clue",
+          "id": "C-CHARLIE",
+          "bearing": "N",
+          "strength": 0.481
+        }
+      ]
+    },
+    "decision": "Sample signal and nearby clue bearings; update belief.",
+    "battery": 8,
+    "elapsed": 25
+  },
+  {
+    "step": 26,
+    "action": {
+      "type": "move",
+      "delta": [
+        0,
+        -1
+      ],
+      "reason": "Explore promising unvisited cell (9, 5)."
+    },
+    "position": [
+      9,
+      6
+    ],
+    "observation": {
+      "kind": "eve_signal_detected",
+      "position": [
+        9,
+        6
+      ],
+      "clues": []
+    },
+    "decision": "Explore promising unvisited cell (9, 5).",
+    "battery": 7,
+    "elapsed": 26
+  },
+  {
+    "step": 27,
+    "action": {
+      "type": "move",
+      "delta": [
+        0,
+        -1
+      ],
+      "reason": "Return to base after signal detection or resource warning."
+    },
+    "position": [
+      9,
+      5
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        9,
+        5
+      ],
+      "signal_strength": 0.342,
+      "clues": []
+    },
+    "decision": "Return to base after signal detection or resource warning.",
+    "battery": 6,
+    "elapsed": 27
+  },
+  {
+    "step": 28,
+    "action": {
+      "type": "move",
+      "delta": [
+        0,
+        -1
+      ],
+      "reason": "Return to base after signal detection or resource warning."
+    },
+    "position": [
+      9,
+      4
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        9,
+        4
+      ],
+      "signal_strength": 0.242,
+      "clues": []
+    },
+    "decision": "Return to base after signal detection or resource warning.",
+    "battery": 5,
+    "elapsed": 28
+  },
+  {
+    "step": 29,
+    "action": {
+      "type": "move",
+      "delta": [
+        -1,
+        0
+      ],
+      "reason": "Return to base after signal detection or resource warning."
+    },
+    "position": [
+      8,
+      4
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        8,
+        4
+      ],
+      "signal_strength": 0.203,
+      "clues": []
+    },
+    "decision": "Return to base after signal detection or resource warning.",
+    "battery": 4,
+    "elapsed": 29
+  },
+  {
+    "step": 30,
+    "action": {
+      "type": "move",
+      "delta": [
+        -1,
+        0
+      ],
+      "reason": "Return to base after signal detection or resource warning."
+    },
+    "position": [
+      7,
+      4
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        7,
+        4
+      ],
+      "signal_strength": 0.14,
+      "clues": []
+    },
+    "decision": "Return to base after signal detection or resource warning.",
+    "battery": 3,
+    "elapsed": 30
+  },
+  {
+    "step": 31,
+    "action": {
+      "type": "move",
+      "delta": [
+        0,
+        1
+      ],
+      "reason": "Return to base after signal detection or resource warning."
+    },
+    "position": [
+      7,
+      5
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        7,
+        5
+      ],
+      "signal_strength": 0.174,
+      "clues": []
+    },
+    "decision": "Return to base after signal detection or resource warning.",
+    "battery": 2,
+    "elapsed": 31
+  },
+  {
+    "step": 32,
+    "action": {
+      "type": "move",
+      "delta": [
+        -1,
+        0
+      ],
+      "reason": "Return to base after signal detection or resource warning."
+    },
+    "position": [
+      6,
+      5
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        6,
+        5
+      ],
+      "signal_strength": 0.149,
+      "clues": []
+    },
+    "decision": "Return to base after signal detection or resource warning.",
+    "battery": 1,
+    "elapsed": 32
+  },
+  {
+    "step": 33,
+    "action": {
+      "type": "move",
+      "delta": [
+        -1,
+        0
+      ],
+      "reason": "Return to base after signal detection or resource warning."
+    },
+    "position": [
+      5,
+      5
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        5,
+        5
+      ],
+      "signal_strength": 0.154,
+      "clues": []
+    },
+    "decision": "Return to base after signal detection or resource warning.",
+    "battery": 0,
+    "elapsed": 33
+  },
+  {
+    "step": 34,
+    "action": {
+      "type": "move",
+      "delta": [
+        0,
+        -1
+      ],
+      "reason": "Return to base after signal detection or resource warning."
+    },
+    "position": [
+      5,
+      4
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        5,
+        4
+      ],
+      "signal_strength": 0.121,
+      "clues": []
+    },
+    "decision": "Return to base after signal detection or resource warning.",
+    "battery": 0,
+    "elapsed": 34
+  },
+  {
+    "step": 35,
+    "action": {
+      "type": "move",
+      "delta": [
+        -1,
+        0
+      ],
+      "reason": "Return to base after signal detection or resource warning."
+    },
+    "position": [
+      4,
+      4
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        4,
+        4
+      ],
+      "signal_strength": 0.1,
+      "clues": []
+    },
+    "decision": "Return to base after signal detection or resource warning.",
+    "battery": 0,
+    "elapsed": 35
+  },
+  {
+    "step": 36,
+    "action": {
+      "type": "move",
+      "delta": [
+        -1,
+        0
+      ],
+      "reason": "Return to base after signal detection or resource warning."
+    },
+    "position": [
+      3,
+      4
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        3,
+        4
+      ],
+      "signal_strength": 0.105,
+      "clues": []
+    },
+    "decision": "Return to base after signal detection or resource warning.",
+    "battery": 0,
+    "elapsed": 36
+  },
+  {
+    "step": 37,
+    "action": {
+      "type": "move",
+      "delta": [
+        -1,
+        0
+      ],
+      "reason": "Return to base after signal detection or resource warning."
+    },
+    "position": [
+      2,
+      4
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        2,
+        4
+      ],
+      "signal_strength": 0.088,
+      "clues": []
+    },
+    "decision": "Return to base after signal detection or resource warning.",
+    "battery": 0,
+    "elapsed": 37
+  },
+  {
+    "step": 38,
+    "action": {
+      "type": "move",
+      "delta": [
+        0,
+        -1
+      ],
+      "reason": "Return to base after signal detection or resource warning."
+    },
+    "position": [
+      2,
+      3
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        2,
+        3
+      ],
+      "signal_strength": 0.071,
+      "clues": []
+    },
+    "decision": "Return to base after signal detection or resource warning.",
+    "battery": 0,
+    "elapsed": 38
+  },
+  {
+    "step": 39,
+    "action": {
+      "type": "move",
+      "delta": [
+        0,
+        -1
+      ],
+      "reason": "Return to base after signal detection or resource warning."
+    },
+    "position": [
+      2,
+      2
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        2,
+        2
+      ],
+      "signal_strength": 0.095,
+      "clues": []
+    },
+    "decision": "Return to base after signal detection or resource warning.",
+    "battery": 0,
+    "elapsed": 39
+  },
+  {
+    "step": 40,
+    "action": {
+      "type": "move",
+      "delta": [
+        0,
+        -1
+      ],
+      "reason": "Return to base after signal detection or resource warning."
+    },
+    "position": [
+      2,
+      1
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        2,
+        1
+      ],
+      "signal_strength": 0.083,
+      "clues": []
+    },
+    "decision": "Return to base after signal detection or resource warning.",
+    "battery": 0,
+    "elapsed": 40
+  },
+  {
+    "step": 41,
+    "action": {
+      "type": "move",
+      "delta": [
+        0,
+        -1
+      ],
+      "reason": "Return to base after signal detection or resource warning."
+    },
+    "position": [
+      2,
+      0
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        2,
+        0
+      ],
+      "signal_strength": 0.051,
+      "clues": []
+    },
+    "decision": "Return to base after signal detection or resource warning.",
+    "battery": 0,
+    "elapsed": 41
+  },
+  {
+    "step": 42,
+    "action": {
+      "type": "move",
+      "delta": [
+        -1,
+        0
+      ],
+      "reason": "Return to base after signal detection or resource warning."
+    },
+    "position": [
+      1,
+      0
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        1,
+        0
+      ],
+      "signal_strength": 0.067,
+      "clues": []
+    },
+    "decision": "Return to base after signal detection or resource warning.",
+    "battery": 0,
+    "elapsed": 42
+  },
+  {
+    "step": 43,
+    "action": {
+      "type": "move",
+      "delta": [
+        -1,
+        0
+      ],
+      "reason": "Return to base after signal detection or resource warning."
+    },
+    "position": [
+      0,
+      0
+    ],
+    "observation": {
+      "kind": "scan_result",
+      "position": [
+        0,
+        0
+      ],
+      "signal_strength": 0.06,
+      "clues": []
+    },
+    "decision": "Return to base after signal detection or resource warning.",
+    "battery": 0,
+    "elapsed": 43
+  }
+]

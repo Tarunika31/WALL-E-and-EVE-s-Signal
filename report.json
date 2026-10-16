@@ -1,0 +1,83 @@
+{
+  "mission_status": "eve_located_returned",
+  "eve_confirmed": true,
+  "inferred_location": [
+    9,
+    6
+  ],
+  "confidence": 0.9644,
+  "last_position": [
+    0,
+    0
+  ],
+  "steps": 43,
+  "elapsed_time_units": 43,
+  "battery_remaining": 0,
+  "clues_found": [
+    "C-ALPHA",
+    "C-CHARLIE"
+  ],
+  "evidence": [
+    {
+      "step": 8,
+      "type": "clue",
+      "id": "C-ALPHA",
+      "bearing": "S",
+      "at": [
+        2,
+        3
+      ]
+    },
+    {
+      "step": 9,
+      "type": "clue",
+      "id": "C-ALPHA",
+      "bearing": "HERE",
+      "at": [
+        2,
+        4
+      ]
+    },
+    {
+      "step": 10,
+      "type": "clue",
+      "id": "C-ALPHA",
+      "bearing": "HERE",
+      "at": [
+        2,
+        4
+      ]
+    },
+    {
+      "step": 24,
+      "type": "clue",
+      "id": "C-CHARLIE",
+      "bearing": "N",
+      "at": [
+        9,
+        7
+      ]
+    },
+    {
+      "step": 25,
+      "type": "clue",
+      "id": "C-CHARLIE",
+      "bearing": "N",
+      "at": [
+        9,
+        7
+      ]
+    },
+    {
+      "step": 26,
+      "type": "direct_signal",
+      "at": [
+        9,
+        6
+      ],
+      "detail": "EVE signal detected"
+    }
+  ],
+  "visited_cells": 24,
+  "recommended_next_step": "Verify the detected signal with a second scan and transmit coordinates."
+}
